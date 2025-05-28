@@ -1,4 +1,5 @@
-import { defaultRateLimit, PluginConfig, RateLimit } from "@/app/page"
+import { PluginConfig, RateLimit } from "@/app/page"
+import { defaultRateLimit } from "@/lib/defaultField"
 import { useCallback } from "react"
 
  function useSchemaRateLimits(config: PluginConfig, setConfig: React.Dispatch<React.SetStateAction<PluginConfig>>) {

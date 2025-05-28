@@ -1,4 +1,5 @@
-import { defaultHook, Hook, PluginConfig } from "@/app/page"
+import { Hook, PluginConfig } from "@/app/page"
+import { defaultHook } from "@/lib/defaultField"
 
  function useSchemaHooks(config: PluginConfig, setConfig: React.Dispatch<React.SetStateAction<PluginConfig>>) {
     const addHook = () => {

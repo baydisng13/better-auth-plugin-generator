@@ -1,4 +1,5 @@
-import { defaultField, defaultTable, PluginConfig, SchemaField, SchemaTable } from "@/app/page"
+import { PluginConfig, SchemaField, SchemaTable } from "@/app/page"
+import { defaultField, defaultTable } from "@/lib/defaultField"
 
  function useSchemaTables(config: PluginConfig, setConfig: React.Dispatch<React.SetStateAction<PluginConfig>>) {
     const addTable = (isNew = false) => {

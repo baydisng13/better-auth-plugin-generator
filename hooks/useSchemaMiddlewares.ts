@@ -1,4 +1,5 @@
-import { defaultMiddleware, Middleware, PluginConfig } from "@/app/page"
+import { Middleware, PluginConfig } from "@/app/page"
+import { defaultMiddleware } from "@/lib/defaultField"
 
  function useSchemaMiddlewares(config: PluginConfig, setConfig: React.Dispatch<React.SetStateAction<PluginConfig>>) {
     const addMiddleware = () => {
